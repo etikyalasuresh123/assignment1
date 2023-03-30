@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>
+        curd
+    </title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        
+        input {
+            width: 300px;
+            height: 30px;
+        }
+        
+        
+      
+        
+        
+    </style>
+</head>
+
+<body><br><br>
+
+    <form id="form">
+      
+        <input type="text" id="product_name" placeholder="product name" required> <br><br>
+       
+        <input type="text" id="product_price" placeholder="product price" required> <br><br>
+        
+        <input type="text" id="product_description" placeholder="product description" required> <br><br>
+        <input type="text" id="product_img_url" placeholder="product url" required> <br><br>
+      
+        <button id = "addOrSave" onclick="addProduct()" >Add Product</button>
+        <!--<button id = "addOrSave" onclick="addProduct()" disabled>Add Product</button>--> 
+
+        <button onclick="window.print()">Print this page</button>
+        
+        
+    </form>
+
+    <div class = "block1">
+    <ol id="productList">
+
+    </ol>
+    </div>
+
+    <script src="task.js"></script>
+
+
+</body>
+
+</html>
